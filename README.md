@@ -1,5 +1,5 @@
 # Async_with_generators
-##Concurrencia basada en generadores de Python
+## Concurrencia basada en generadores de Python
 Un generador es una función especial que puede pausar su ejecución y luego reanudarla desde donde se detuvo. Esto se logra mediante el uso de la palabra clave "yield". Cuando un generador encuentra una cláusula "yield", devuelve un valor y pausa su ejecución hasta que se le solicite continuar. Esto permite que otras partes del código tengan la oportunidad de ejecutarse antes de que el generador se reanude.
 
 En el código proporcionado, la función asyncCount se define como un generador. Recibe dos parámetros: start, que indica el valor inicial para la cuenta regresiva, y _t, que representa el tiempo de espera entre cada cuenta. Antes de comenzar la cuenta regresiva, se realizan algunas validaciones para garantizar que los parámetros sean válidos.
